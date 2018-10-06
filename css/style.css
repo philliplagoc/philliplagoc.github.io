@@ -319,7 +319,7 @@ hr.small {
 }
 
 #workimage {
-    background: #1F1F1F url(../img/code.png) no-repeat center center;
+    background: #1F1F1F url(../img/experience.jpg) no-repeat center center;
 }
 
 #projectimage {
@@ -343,7 +343,7 @@ hr.small {
 
 #educationimage p, #workimage p, #projectimage p, #educationimage .fa, #workimage .fa, #projectimage .fa {
     font-size: 50px;
-    color: white;
+    color: rgb(256, 256, 256);
 }
 
 /* Back to top */
