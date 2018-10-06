@@ -65,7 +65,7 @@ header .fa:hover, .projects .fa-angle-double-up:hover {
 }
 
 .education {
-    background-color: rgb(56,56,56);
+    background-color: rgb(56, 56, 56);
     padding: 50px 0;
     color: white;
 }
@@ -77,7 +77,7 @@ header .fa:hover, .projects .fa-angle-double-up:hover {
 }
 
 .work{
-    background-color: rgb(56,56,56);
+    background-color: rgb(56, 56, 56);
     padding: 50px 0;
     color: white;
 }
@@ -89,7 +89,7 @@ header .fa:hover, .projects .fa-angle-double-up:hover {
 }
 
 .projects {
-    background-color: rgb(56,56,56);
+    background-color: rgb(56, 56, 56);
     padding: 50px 0;
     color: white;
 }
@@ -262,11 +262,11 @@ hr.small {
 
 /* Blur Effect */
 .image {
-   background: url('../img/ny-blur.jpg') no-repeat center center;
+   background: url('../img/bg.jpg') no-repeat center center;
 }
 
 .blurimage {
-   background: #1F1F1F url('../img/ny.jpg') no-repeat center center;
+   background: #1F1F1F url('../img/bg.jpg') no-repeat center center;
 }
 
 .blurImg {
