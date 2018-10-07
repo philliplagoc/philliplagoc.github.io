@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="Priyank Agrawal">
 
-    <title>Personal Website</title>
+    <title>Phillip Lagoc's Website</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -42,10 +42,22 @@
                 <a href="#summary" onclick=$("#menu-close").click();>Summary</a>
             </li>
             <li>
+              <a href="#education" onclick=$("#menu-close").click();>Education</a>
+            </li>
+            <li>
                 <a href="#work" onclick=$("#menu-close").click();>Experience</a>
             </li>
             <li>
                 <a href="#projects" onclick=$("#menu-close").click();>Projects</a>
+            </li>
+            <li>
+                <a href="#orgs" onclick=$("#menu-close").click();>Organizations</a>
+            </li>
+            <li>
+                <a href="#certificates" onclick=$("#menu-close").click();>Accomplishments</a>
+            </li>
+            <li>
+                <a href="#skills" onclick=$("#menu-close").click();>Skills</a>
             </li>
         </ul>
     </nav>
@@ -59,12 +71,13 @@
         </div>
 
         <div class="text-vertical-center">
-            <img class="img-responsive img-circle center-block grow" src="img/profile.jpg" width="200px" alt="">
+            <img class="img-responsive img-circle center-block grow" src="img/profile-2.jpg" width="200px" alt="">
             <h1>Phillip Lagoc</h1>
             <h3>Machine Learning Enthusiast</h3>
             <br>
-            <a target="_blank" href="https://www.linkedin.com/in/philliplagoc/"><span class="fa fa-linkedin-square fa-4x"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a target="_blank" href="https://github.com/philliplagoc"><span class="fa fa-github fa-4x" aria-hidden="true"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="https://www.linkedin.com/in/philliplagoc/"><span class="fa fa-linkedin-square fa-4x" title="My Github"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="./Resume.pdf" download="Phillip-Lagoc-Resume"><span class="fa fa-file fa-4x" aria-hidden="true" title="Download Resume"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="https://github.com/philliplagoc"><span class="fa fa-github fa-4x" aria-hidden="true" title="My LinkedIn"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <br>
             <br>
             <br>
@@ -74,6 +87,8 @@
         </div>
     </header>
     <!-- Home ends -->
+
+
 
     <!-- Summary begins -->
     <section id="summary" class="summary">
@@ -93,7 +108,6 @@
         <!-- /.container -->
     </section>
     <!-- Summary ends -->
-
 
 
 
@@ -144,11 +158,6 @@
 
 
 
-
-
-
-
-
     <!-- Work Image begins-->
     <section id="workimage" class="content-section text-center">
         <div class="text-container">
@@ -163,8 +172,8 @@
             <div class="row" id="workheading">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-6 text-center">
-                <i class="fa fa-group fa-4x"></i>
-                <h2>Experience</h2>
+                <i class="fa fa-briefcase fa-4x"></i>
+                <h2>Work Experience</h2>
                 <hr>
                 </div>
                 <div class="col-lg-3"></div>
@@ -173,15 +182,40 @@
             <div class="row" id="company">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-6 text-center">
-                    <a target="_blank" href="http://example.com/">
-                    <img class="img-responsive img-circle center-block grow" src="img/default-company.jpg" width="160px" alt=""></a>
+                    <a target="_blank" href="http://lcl.ucsd.edu/">
+                    <img class="img-responsive img-circle center-block grow" src="img/lcl.png" width="160px" alt=""></a>
                     <h2><span>Language Comprehension Lab</span><br>
-                    <small>Location</small><br>
-                    <small>Designation</small><br>
-                    <small>Duration</small>
+                    <small>UC San Diego</small><br>
+                    <small>Undergraduate Research Assistant</small><br>
+                    <small>Dec. 2017 - Present</small>
                     </h2>
                     <p class="lead">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt eu mi a sodales. Ut turpis nunc, sagittis at leo ut, dictum fringilla orci. Integer nec augue malesuada, ullamcorper risus nec, blandit augue. Nam porta, enim sit amet tempor tempor, est lacus mollis neque, sit amet molestie ipsum risus sed purus. Nullam dapibus nibh urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut facilisis, urna a pulvinar suscipit, turpis arcu facilisis leo, nec pharetra justo augue ut orci. Praesent vel maximus dui. Nulla eleifend, lectus eget scelerisque dignissim, velit ex mattis neque, et lobortis velit quam eget est. Cras eu purus et odio placerat pellentesque.
+                      Currently, I am conducting and designing online experiments in JavaScript, and am analyzing data sets using R and Python. 
+                      <br>
+                      In the past, I have created a R script to merge .csv files, and have developed an online experiment using the jsPsych library and have recorded and sent data using PHP.
+                    </p>
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="row" id="company">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6 text-center">
+                    <a target="_blank" href="https://eaop.ucsd.edu/">
+                    <img class="img-responsive img-circle center-block grow" src="img/eaop-logo.jpg" width="160px" alt=""></a>
+                    <h2><span>Early Academic Outreach Program</span><br>
+                    <small>9500 Gilman Dr, La Jolla, CA 92093</small><br>
+                    <small>High School Math Tutor</small><br>
+                    <small>Aug. 2017 - May 2018</small>
+                    </h2>
+                    <p class="lead">
+                      I tutored high school students of low financial backgrounds in Advanced Placement level mathematics.
+                      I have also coordinated events aimed at encouraging such students to pursue a higher education. 
+                      <br>
+                      One such event was <em>Comienza con un Suena</em>, where over 500 students from across San Diego came to UCSD to learn about college through several presentations. I helped plan and coordinate this event with other tutors and my supervisors. 
                     </P>
                 </div>
                 <div class="col-lg-3"></div>
@@ -193,15 +227,17 @@
             <div class="row" id="company">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-6 text-center">
-                    <a target="_blank" href="http://example.com/">
-                    <img class="img-responsive img-circle center-block grow" src="img/default-company.jpg" width="160px" alt=""></a>
-                    <h2><span>Company Name</span><br>
-                    <small>Location</small><br>
-                    <small>Designation</small><br>
-                    <small>Duration</small>
+                    <a target="_blank" href="https://www.thetalklist.com/">
+                    <img class="img-responsive img-circle center-block grow" src="img/ttl.jpg" width="160px" alt=""></a>
+                    <h2><span>TheTalkList, LLC.</span><br>
+                    <small>10393 San Diego Mission Rd. Suite 212, San Diego, CA 92108</small><br>
+                    <small>Android Developer Intern</small><br>
+                    <small>Aug. 2017 - Jan. 2018</small>
                     </h2>
                     <p class="lead">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt eu mi a sodales. Ut turpis nunc, sagittis at leo ut, dictum fringilla orci. Integer nec augue malesuada, ullamcorper risus nec, blandit augue. Nam porta, enim sit amet tempor tempor, est lacus mollis neque, sit amet molestie ipsum risus sed purus. Nullam dapibus nibh urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut facilisis, urna a pulvinar suscipit, turpis arcu facilisis leo, nec pharetra justo augue ut orci. Praesent vel maximus dui. Nulla eleifend, lectus eget scelerisque dignissim, velit ex mattis neque, et lobortis velit quam eget est. Cras eu purus et odio placerat pellentesque.
+                      I collaborated with an international team to test, develop, and implement UI changes in their Android tutoring app.
+                      Every week, I helped report and solve over 10 bugs in each new APK.
+                      At the end, the CEO Andres Abeyta told me that I exemplified communication and problem-solving skills.
                     </P>
                 </div>
                 <div class="col-lg-3"></div>
@@ -212,10 +248,12 @@
     </section>
     <!-- Work ends -->
 
+
+
     <!-- Projects Image begins-->
     <section id="projectimage" class="content-section text-center">
         <div class="text-container">
-            <p><strong>Projects that I have built.</strong></p>
+            <p><strong>Projects</strong></p>
         </div>
     </section>
     <!-- Projects Image ends -->
@@ -227,7 +265,7 @@
                 <div class="col-lg-3"></div>
                 <div class="col-lg-6 text-center">
                 <i class="fa fa-code fa-4x"></i>
-                <h2>Projects</h2>
+                <h2>Personal Projects</h2>
                 <hr>
                 </div>
                 <div class="col-lg-3"></div>
@@ -240,26 +278,26 @@
               </div>
 
               <div class="col-lg-4 text-center">
-                  <a target="_blank" href="http://example.com/">
-                  <img class="img-responsive img-circle center-block grow" src="img/html.png" width="150px" alt=""></a>
-                  <h2><span>Project Name</span><br>
-                  <small>Duration</small><br>
-                  <small><a target="_blank" href="https://github.com/">GitHub</a></small>
+                  <a target="_blank" href="https://github.com/philliplagoc/JavaFX-Pong">
+                  <img class="img-responsive img-circle center-block grow" src="img/pong.png" width="150px" alt=""></a>
+                  <h2><span>Pong</span><br>
+                  <small>Aug. 2017 - Aug. 2017</small><br>
                   </h2>
                   <p class="lead">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt eu mi a sodales. Ut turpis nunc, sagittis at leo ut, dictum fringilla orci. Integer nec augue malesuada, ullamcorper risus nec, blandit augue. Nam porta, enim sit amet tempor tempor, est lacus mollis neque, sit amet molestie ipsum risus sed purus.
+                    Using JavaFX, I developed a clone of Pong in the span of a week. I personally created the GUI and game logic, 
+                    and also implemented two-player functionality.
                   </p>
               </div>
 
               <div class="col-lg-4 text-center">
-                  <a target="_blank" href="http://example.com/">
-                  <img class="img-responsive img-circle center-block grow" src="img/html.png" width="150px" alt=""></a>
-                  <h2><span>Project Name</span><br>
-                  <small>Duration</small><br>
-                  <small><a target="_blank" href="https://github.com/">GitHub</a></small>
+                  <a target="_blank" href="https://github.com/philliplagoc/JavaFX-Frogger">
+                  <img class="img-responsive img-circle center-block grow" src="img/frogger.png" width="150px" alt=""></a>
+                  <h2><span>Frogger</span><br>
+                  <small>Sept. 2017 - Sept. 2017</small><br>
                   </h2>
                   <p class="lead">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt eu mi a sodales. Ut turpis nunc, sagittis at leo ut, dictum fringilla orci. Integer nec augue malesuada, ullamcorper risus nec, blandit augue. Nam porta, enim sit amet tempor tempor, est lacus mollis neque, sit amet molestie ipsum risus sed purus.
+                    Again using JavaFX, I developed a clone of Frogger. To make game development easier for myself, I created 
+                    and incorporated my own game engine, which facilitated sprite creation and hit-box detection.
                   </p>
               </div>
 
@@ -267,58 +305,232 @@
               </div>
             </div>
 
-            <br>
-            <br>
-
-
-            <div class="row">
-              <div class="col-lg-4 text-center">
-                  <a target="_blank" href="http://example.com/">
-                  <img class="img-responsive img-circle center-block grow" src="img/kaggle.png" width="150px" alt=""></a>
-                  <h2><span>Project Name</span><br>
-                  <small>Duration</small><br>
-                  <small><a target="_blank" href="https://github.com/">GitHub</a></small>
-                  </h2>
-                  <p class="lead">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt eu mi a sodales. Ut turpis nunc, sagittis at leo ut, dictum fringilla orci. Integer nec augue malesuada, ullamcorper risus nec, blandit augue. Nam porta, enim sit amet tempor tempor, est lacus mollis neque, sit amet molestie ipsum risus sed purus.
-                  </p>
-              </div>
-
-              <div class="col-lg-4 text-center">
-                  <a target="_blank" href="http://example.com/">
-                  <img class="img-responsive img-circle center-block grow" src="img/kaggle.png" width="150px" alt=""></a>
-                  <h2><span>Project Name</span><br>
-                  <small>Duration</small><br>
-                  <small><a target="_blank" href="https://github.com/">GitHub</a></small>
-                  </h2>
-                  <p class="lead">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt eu mi a sodales. Ut turpis nunc, sagittis at leo ut, dictum fringilla orci. Integer nec augue malesuada, ullamcorper risus nec, blandit augue. Nam porta, enim sit amet tempor tempor, est lacus mollis neque, sit amet molestie ipsum risus sed purus.
-                  </p>
-              </div>
-
-              <div class="col-lg-4 text-center">
-                  <a target="_blank" href="http://example.com/">
-                  <img class="img-responsive img-circle center-block grow" src="img/kaggle.png" width="150px" alt=""></a>
-                  <h2><span>Project Name</span><br>
-                  <small>Duration</small><br>
-                  <small><a target="_blank" href="https://github.com/">GitHub</a></small>
-                  </h2>
-                  <p class="lead">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt eu mi a sodales. Ut turpis nunc, sagittis at leo ut, dictum fringilla orci. Integer nec augue malesuada, ullamcorper risus nec, blandit augue. Nam porta, enim sit amet tempor tempor, est lacus mollis neque, sit amet molestie ipsum risus sed purus.
-                  </p>
-              </div>
             </div>
         </div>
         <!-- /.container -->
     </section>
     <!-- Projects ends -->
 
+
+
+    <!-- Organizations Image begins -->
+    <section id="orgimage" class="content-section text-center">
+        <div class="text-container">
+            <p><strong>Organizations</strong></p>
+        </div>
+    </section>
+    <!-- Organizations Image ends -->
+
+    <!-- Organizations begins -->
+    <section id="orgs" class="orgs">
+      <div class="container">
+        <div class="row" id="orgsheading">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6 text-center">
+                <i class="fa fa-group fa-4x"></i>
+                <h2>UCSD Organizations</h2>
+                <hr>
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
+
+            <div class="row" id="org">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6 text-center">
+                    <a target="_blank" href="https://cssa-ucsd.org/">
+                    <img class="img-responsive img-circle center-block grow" src="img/cssa-3.jpg" width="160px" alt=""></a>
+                    <h2><span>Cognitive Science Student Association</span><br>
+                    <small>UC San Diego</small><br>
+                    <small>Internal Academic and Professional Development Chair</small><br>
+                    <small>June 2018 - Present</small>
+                    </h2>
+                    <p class="lead">
+                      I am responsible for engaging the UCSD Cognitive Science Community through professional and academic development events as well as networking events.
+                      <br>
+                      More specifically, I contact notable UCSD Cognitive Science faculty and graduate students, as well as other distinguished members and businesses, and arrange events where they can speak to undergraduates about their research, experiences, and the future of Cognitive Science.
+                    </p>
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
+      </div>
+    </section>
+    <!-- Organizations ends -->
+
+
+
+   <!-- Certificates Image begins -->
+    <section id="certificateimage" class="content-section text-center">
+        <div class="text-container">
+            <p><strong>Accomplishments</strong></p>
+        </div>
+    </section>
+    <!-- Certificates Image ends -->
+
+    <!-- Certificates begins -->
+    <section id="certificates" class="certificates">
+      <div class="container">
+        <div class="row" id="certificatesheading">
+                <div class="col-lg-3"></div>
+                  <div class="col-lg-6 text-center">
+                    <i class="fa fa-star fa-4x"></i>
+                    <h2>Accomplishments and Certificates</h2>
+                    <hr>
+                  </div>
+                <div class="col-lg-3"></div>
+            </div>
+
+
+            <div class="row" id="certificates">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6 text-center">
+                    <a target="_blank" href="https://www.coursera.org/account/accomplishments/certificate/EGBZ7PG5ZA2R">
+                    <img class="img-responsive img-circle center-block grow" src="img/coursera.png" width="160px" alt=""></a>
+                    <h2><span>Machine Learning Certificate of Completion</span><br>
+                    <small>Coursera</small><br>
+                    <small>Andrew Ng, Stanford University</small><br>
+                    <small>July 2018</small>
+                    </h2>
+                    <p class="lead">
+                      After completing Andrew Ng's Machine Learning course on Coursera, I recieved this certificate of completion. Now, I have experience in machine learning concepts such as supervised and unsupervised learning, and in implementing my machine learning techniques like support vector machines linear regression in Matlab. 
+                    </p>
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="row" id="certificates">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6 text-center">
+                    <a target="_blank" href="https://roosevelt.ucsd.edu/mmw/awards/MMW%20Showcase%20Award%20To%20Be%20Posted%20on%20Site.pdf">
+                    <img class="img-responsive img-circle center-block grow" src="img/erc-2.png" width="160px" alt=""></a>
+                    <h2><span>Certificate of Writing Excellence</span><br>
+                    <small>Making of the Modern World Program</small><br>
+                    <small>Eleanor Roosevelt College, UC San Diego</small><br>
+                    <small>Oct. 2017</small>
+                    </h2>
+                    <p class="lead">
+                      I received this after writing my essay called, "The Modes of Warfare in Medieval Japan and Where They Came From", which explored how Japanese samurai incorporated firearms into their military strategy during the Sengoku Period. 
+                      <br>
+                      Of the thousands of students who took the Making of the Modern World Program, only 5% are given this award. I am extremely thankful to those who helped me conduct research for this essay as well as write it.
+                    </p>
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
+
+      </div>
+    </section>
+    <!-- Certificates ends -->
+
+
+
+    <!-- Skills Image begins -->
+    <section id="skillsimage" class="content-section text-center">
+        <div class="text-container">
+            <p><strong>Skills</strong></p>
+        </div>
+    </section>
+    <!-- Skills Image ends -->
+
+    <!-- Skills begins -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="row" id="skillsheading">
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6 text-center">
+            <i class="fa fa-user fa-4x"></i>
+            <h2>My Skills</h2>
+            <hr>
+          </div>
+          <div class="col-lg-3"></div>
+        </div>
+
+         <!-- <div class="row" id="skills">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6 text-center">
+                    <p class="lead">
+                      Java
+                      <br>
+                      HTML/ CSS/ JavaScript
+                      <br>
+                      Android
+                      <br>
+                      Python
+                      <br>
+                      Git
+                      <br>
+                      Tutoring
+                      <br>
+                      Cooperative
+                      <br>
+                      Fast-Learner
+                      <br>
+                      Communication
+                      <br>
+                      Spanish
+                    </p>
+                </div>
+                <div class="col-lg-3"></div>
+          </div> -->
+
+            <div class="row" id="skills-list">
+              <h2>Technical Skills</h2>
+              
+              <br>
+              
+              <ul>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>R</li>
+                <li>MATLAB</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git</li>
+                <li>Vim</li>
+              </ul>
+              
+              <br>
+
+              <h2>Interpersonal Skills</h2>
+              
+              <br>
+              
+              <ul>
+                <li>Tutoring</li>
+                <li>Communication</li>
+                <li>Public Speaking</li>
+                <li>Cooperative</li>
+              </ul>
+
+              <br>
+
+              <h2>Other Skills</h2>
+
+              <br>
+
+              <ul>
+                <li>Research</li>
+                <li>Fast-Learner</li>
+                <li>Data Analysis and Modeling</li>
+              </ul>
+            </div>
+
+
+      </div>
+    </section>
+    <!-- Skills ends -->
+    
+ 
+
+
     <!-- Footer begins -->
     <footer>
         <div class="container text-center">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt eu mi a sodales. Ut turpis nunc, sagittis at leo ut, dictum fringilla orci.</p>
-            <p class="lead">You can reach out to me at john.doe@example.com</p>
-            <p>Copyright &copy; 2017 John Doe</p>
+            <p>No copyright infringement is intended.</p>
+            <p class="lead">You can reach out to me at philliplagoc@gmail.com</p>
+            <p>Copyright &copy; 2018 Phillip Lagoc</p>
         </div>
     </footer>
     <!-- Footer ends -->

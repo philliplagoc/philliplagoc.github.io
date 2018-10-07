@@ -22,6 +22,10 @@ body {
     font-weight: 700;
 }
 
+.img-circle {
+    border-radius: 15%;
+}
+
 /* Header */
 .header {
     display: table;
@@ -89,6 +93,42 @@ header .fa:hover, .projects .fa-angle-double-up:hover {
 }
 
 .projects {
+    background-color: rgb(56, 56, 56);
+    padding: 50px 0;
+    color: white;
+}
+
+/* Organizations */
+.orgs p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.orgs {
+    background-color: rgb(56, 56, 56);
+    padding: 50px 0;
+    color: white;
+}
+
+/* Certificates */
+.certificates p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.certificates {
+    background-color: rgb(56, 56, 56);
+    padding: 50px 0;
+    color: white;
+}
+
+/* Skills */
+.skills p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.skills {
     background-color: rgb(56, 56, 56);
     padding: 50px 0;
     color: white;
@@ -262,11 +302,11 @@ hr.small {
 
 /* Blur Effect */
 .image {
-   background: url('../img/bg.jpg') no-repeat center center;
+   background: url('../img/bg-3.jpg') no-repeat center center;
 }
 
 .blurimage {
-   background: #1F1F1F url('../img/bg.jpg') no-repeat center center;
+   background: #1F1F1F url('../img/bg-3.jpg') no-repeat center center;
 }
 
 .blurImg {
@@ -312,8 +352,6 @@ hr.small {
 }
 
 /* Full Width Image */
-/* Change images*/
-
 #educationimage {
     background: #1F1F1F url(../img/education.jpg) no-repeat center center;
 }
@@ -326,8 +364,19 @@ hr.small {
     background: #1F1F1F url(../img/code.png) no-repeat center center;
 }
 
+#orgimage {
+    background: #1F1F1F url(../img/cssa-4.png) no-repeat center center;
+}
 
-#educationimage, #workimage, #projectimage {
+#certificateimage {
+    background: #1F1F1F url(../img/certificate.jpg) no-repeat center center;
+}
+
+#skillsimage {
+    background: #1F1F1F url(../img/skills.jpg) no-repeat center center;
+}
+
+#educationimage, #workimage, #projectimage, #orgimage, #certificateimage, #skillsimage {
    background-size: cover !important;
    -webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -336,12 +385,14 @@ hr.small {
    overflow: hidden;
 }
 
-#educationimage .text-container, #workimage .text-container, #projectimage .text-container, #resume .text-container {
+#educationimage .text-container, #workimage .text-container, #projectimage .text-container, 
+    #orgimage .text-container, #certificateimage .text-container, #skillsimage .text-container, #resume .text-container {
    padding-top: 60px;
    padding-bottom: 60px;
 }
 
-#educationimage p, #workimage p, #projectimage p, #educationimage .fa, #workimage .fa, #projectimage .fa {
+#educationimage p, #workimage p, #projectimage p, #orgimage p, #certificateimage p, #skillsimage p,
+    #educationimage .fa, #workimage .fa, #projectimage .fa, #orgimage .fa, #certificateimage .fa, #skillsimage .fa {
     font-size: 50px;
     color: rgb(256, 256, 256);
 }
@@ -362,4 +413,26 @@ hr.small {
 .back-to-top:hover {
     color: #fff;
     background-color: rgba(0,0,0,0.7);
+}
+
+#skills-list {
+    text-align: center;
+}
+
+#skills-list ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+}
+
+#skills-list li {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: #374054;
+    background: #e4e4ea;
+    list-style: none;
+    cursor: default;
+    font-size: 20px;
 }
