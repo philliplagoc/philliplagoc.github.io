@@ -302,11 +302,11 @@ hr.small {
 
 /* Blur Effect */
 .image {
-   background: url('../img/ny-blur.jpg') no-repeat center center;
+   background: url('../img/bg-3-alt.jpg') no-repeat center center;
 }
 
 .blurimage {
-   background: #1F1F1F url('../img/ny.jpg') no-repeat center center;
+   background: #1F1F1F url('../img/bg-3-alt.jpg') no-repeat center center;
 }
 
 .blurImg {
