@@ -1,0 +1,9 @@
+Naive Bayes
+
+Decision Boundary
+
+Linear Regression
+
+Logistic Regression
+
+Linear Discriminant Analysis
