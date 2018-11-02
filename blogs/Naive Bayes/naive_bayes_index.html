@@ -11775,7 +11775,6 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><em>Disclaimer: This is my first tutorial ever, so please leave any comments down below on how I can improve the content of this piece, or let me know if it helped you!</em></p>
 <h1 id="A-Short-Introduction-to-the-Naive-Bayes-Classifier">A Short Introduction to the Naive Bayes Classifier<a class="anchor-link" href="#A-Short-Introduction-to-the-Naive-Bayes-Classifier">&#182;</a></h1><p>Let's say that we are looking at different teams, Team A and Team B, and the conditions in which they win or lose. Let’s say there are two conditions under which Team A and Team B play: the weather is clear or snowy.</p>
 <p>What we want to do is predict whether Team A or Team B wins in their next game. A simple way to do this would be to use a Naive Bayes Classifier, which uses the famous <a href="https://en.wikipedia.org/wiki/Bayes%27_theorem">Bayes Theorem</a> to calculate the probability that a team wins given certain conditions.</p>
 <p>Here’s what <strong>Bayes Theorem</strong> looks like:</p>
@@ -11793,7 +11792,7 @@ div#notebook {
 <ul>
 <li>$\sum_{k=1}^n(P(x_{k}|y)P(y)$: This means to add all of the prior probabilities for each conditions. When calculated, it becomes $P(x)$, or “the probability that condition x occurs”. </li>
 </ul>
-<p>Now that we have a grasp on how to use Bayes Theorem, let’s use the Naive Bayes Classifier from scikit-learn to check if our math is right and make more predictions.</p>
+<p>Now that we have a grasp on how to use Bayes Theorem, let’s use the Naive Bayes Classifier from scikit-learn.</p>
 <p>Make sure you have Jupyter Notebook and scikit-learn installed. Here are instructions for <a href="https://jupyter.readthedocs.io/en/latest/install.html">how to install Jupyter Notebook</a> and on <a href="http://scikit-learn.org/stable/install.html">how to install scikit-learn</a>.</p>
 <p>Download <a href="./naive_bayes.csv">this dataset</a> first.</p>
 
