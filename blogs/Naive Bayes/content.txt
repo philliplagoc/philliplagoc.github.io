@@ -1,4 +1,0 @@
-Disclaimer: This is my first tutorial ever, so please leave any comments down below on how I can improve the content of this piece, or let me know if it helped you! Most of this stuff will be (startLinkToSlides) what I learned from my professor during class (endLink).
-
-Let's say that we are looking at different teams, Team A and Team B, in a sport (the particular sport doesn't really matter), and the conditions in which they win or lose.
-For example, say  

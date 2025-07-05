@@ -2,4 +2,4 @@
 My own personal website: 
 https://philliplagoc.github.io
 
-Thank you to https://github.com/agrawal-priyank for providing the template.
+Thank you to https://github.com/codewithsadee/vcard-personal-portfolio/tree/master for providing the template.
